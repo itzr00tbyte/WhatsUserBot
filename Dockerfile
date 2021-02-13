@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:publicbeta
 
-RUN git clone https://github.com/Madhavreddy672/Whatsapp-GroupManagerBot /root/WhatsAsena
+RUN git clone https://github.com/itzr00tbyte/WhatsUserBot /root/WhatsAsena
 RUN mkdir /root/WhatsAsena/bin/
 WORKDIR /root/WhatsAsena/
 
