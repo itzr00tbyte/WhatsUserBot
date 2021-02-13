@@ -3,13 +3,13 @@
     "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp.",
     "logo": "https://telegra.ph/file/f9c557ac966a83d936a41.jpg",
     "keywords": ["whatsapp", "userbot", "Asena"],
-    "repository": "https://github.com/Madhavreddy672/Whatsapp-GroupManagerBot",
-    "website":   "https://github.com/Madhavreddy672/Whatsapp-GroupManagerBot",
-    "success_url": "https://github.com/Madhavreddy672/Whatsapp-GroupManagerBot",
+    "repository": "https://github.com/itzr00tbyte/WhatsUserBot",
+    "website":   "https://github.com/itzr00tbyte/WhatsUserBot",
+    "success_url": "https://github.com/itzr00tbyte/WhatsUserBot/",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
-            "description": "Qr.Js ile oluşturduğunuz özel session kodu.",
+            "description": "Provide Asena String",
             "required": true
         },
         "SUDO": {
@@ -22,7 +22,7 @@
             "value": "TR"
         },
         "HANDLERS": {
-            "description": "Komutlar için.",
+            "description": "Syntex Command.",
             "required": true,
             "value": "^[.!;]"
         },
@@ -32,7 +32,7 @@
             "value": "true"
         },
         "HEROKU": {
-            "description": "Herokuda çalışıyorsa true yazın.",
+            "description": "Name Of Heroku Bot.",
             "required": true,
             "value": "true"
         },
@@ -50,7 +50,7 @@
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "Fotoğrafların arkaplanını kaldırır. https://remove.bg",
+            "description": "Provide RM Bg API. https://remove.bg",
             "required": false
         },
         "NO_ONLINE": {
